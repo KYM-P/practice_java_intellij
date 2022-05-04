@@ -1,6 +1,6 @@
 package LinkedList_practice;
 
-public class LinkedList {
+public class LinkedList { // 단방향(next 값만 가짐), 양방향(before 값도 가짐) 으로 다른 데이터와 연결해 리스트를 만들며 중간중간의 데이터 삭제와 생성이 빠르다.
     private Node head; // 첫 번째 Node
     private Node tail; // 마지막 Node
     private int size = 0; // 리스트 크기
