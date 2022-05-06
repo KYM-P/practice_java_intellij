@@ -8,7 +8,7 @@ public class queue { // Stack °ú ¹Ý´ëÀÇ ´À³¦ °¡Àå ¸ÕÀú ÀÔ·ÂÇÑ °ªÀ» ¸ÕÀú Ãâ·Â/»èÁ
     public static void main (String[] args) {
         Queue queue =  new LinkedList();
         Queue<Integer> integerQueue1 =  new LinkedList<Integer>();
-        Queue<Integer> integerQueue2 =  new LinkedList<Integer>(Arrays.asList(1,2,3));
+        Queue<Integer> integerQueue2 =  new LinkedList<Integer>(Arrays.asList(1,2,3)); // »ý¼º ÈÄ ÃÊ±âÈ­
 
         integerQueue1.add(1);
         integerQueue1.add(2);
@@ -18,13 +18,13 @@ public class queue { // Stack °ú ¹Ý´ëÀÇ ´À³¦ °¡Àå ¸ÕÀú ÀÔ·ÂÇÑ °ªÀ» ¸ÕÀú Ãâ·Â/»èÁ
         System.out.println("poll ÈÄ Queue");
         System.out.println(integerQueue1.poll());
         System.out.println(integerQueue1);
-        System.out.println("remove Àü Queue"); // °¡Àå ¸ÕÀú ÀÔ·ÂÇÑ °ª ¹ÝÈ¯ ÈÄ Á¦°Å
+        System.out.println("remove Àü Queue"); // Ã¹ ¹øÂ° °ª ¹ÝÈ¯ ÈÄ Á¦°Å
         System.out.println(integerQueue1);
-        integerQueue1.remove(); // °¡Àå ¸ÕÀú ÀÔ·ÂÇÑ °ª Á¦°Å
+        integerQueue1.remove(); // Ã¹ ¹øÂ° ÀÔ·ÂÇÑ °ª Á¦°Å
         System.out.println("remove ÈÄ Queue");
         System.out.println(integerQueue1);
         System.out.println("peek ÈÄ Queue");
-        System.out.println(integerQueue1.peek()); // °¡Àå ¸ÕÀú ÀÔ·ÂÇÑ °ª ¹ÝÈ¯
+        System.out.println(integerQueue1.peek()); // Ã¹ ¹øÂ° ÀÔ·ÂÇÑ °ª ¹ÝÈ¯
         System.out.println(integerQueue1);
         integerQueue1.clear(); // ¸ðµç °ª Á¦°Å
         System.out.println("clear ÈÄ Queue");
@@ -35,13 +35,15 @@ public class queue { // Stack °ú ¹Ý´ëÀÇ ´À³¦ °¡Àå ¸ÕÀú ÀÔ·ÂÇÑ °ªÀ» ¸ÕÀú Ãâ·Â/»èÁ
         System.out.println(integerQueue1);
 
         /* Queue
-         * .poll() °¡Àå ¸ÕÀú ÀÔ·ÂÇÑ °ª ¹ÝÈ¯ ÈÄ Á¦°Å
-         * .peek() °¡Àå ¸ÕÀú ÀÔ·ÂÇÑ °ª ¹ÝÈ¯
+         * Queue<E e> queue =  new LinkedList<E e>(); LinkedList ¿Í ÇÔ²² »ç¿ë
+         * .poll() Ã¹ ¹øÂ° °ª ¹ÝÈ¯ ÈÄ Á¦°Å
+         * .peek() Ã¹ ¹øÂ° ÀÔ·ÂÇÑ °ª ¹ÝÈ¯
          * .add(input) input °ªÀ» Queue ¿¡ Ãß°¡
          * .offer(input) input °ªÀ» Queue ¿¡ Ãß°¡
-         * .remove() °¡Àå ¸ÕÀú ÀÔ·ÂÇÑ °ª Á¦°Å
+         * .remove() Ã¹ ¹øÂ° ÀÔ·ÂÇÑ °ª Á¦°Å
          * .remove(input) input °ª Queue ¿¡¼­ Á¦°Å
          * .clear() ¸ðµç °ª Á¦°Å
+         * .size() size °ª ¹ÝÈ¯
          */
     }
 }
