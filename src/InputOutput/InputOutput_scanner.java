@@ -17,6 +17,7 @@ public class InputOutput_scanner {
 		 * hasNext() 내용이 입력되었는지 판단 (true,false 형태 반환)(입력된 데이터를 내보냈다면 입력 안한것으로 간주)
 		 * next() 다음 토큰 전까지의 내용 반환
 		 * next 자료형() 해당되는 자료형의 데이터 반환 ex nextint = int형 데이터 반환
+		 * sc.nextInt(radix); radix 기수 (2라면 2진수 0,1 만 입력받음) 00110 입력시 6 반환
 		 * reset() 현 scanner 초기화
 		 * toString() 현 입력된 내용을 String 으로 변환
 		 * useDelimiter(String pattern) pattern 에 해당하는 패턴을 구분자로 사용.

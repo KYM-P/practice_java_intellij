@@ -7,6 +7,8 @@ package practice_space;
 여러 줄 주석
 */
 
+import java.util.InputMismatchException;
+
 public class prac1 { // class 생성
 
     public static int Numb1 = 0; // 전역변수 static
@@ -23,7 +25,6 @@ public class prac1 { // class 생성
 
 
     private class prac1_1 { // private class로 외부 클래스에서 접근할 수 없다.
-
     }
 
     public static int add (int num1, int num2) { // add 함수(메소드) 생성 (클래스 함수)
@@ -93,6 +94,15 @@ public class prac1 { // class 생성
 
         // 외부 함수 사용
         System.out.println(add(level1, (int)level3));
+
+        try { // 예외가 발생할 수 있는 실행문
+
+        } catch (InputMismatchException e) { // catch(예외 타입) { 실행문 }
+
+        }
+        finally { // 예외 발생 여부와 상관없이 실행 (생략 가능)
+
+        }
     }
 
 }

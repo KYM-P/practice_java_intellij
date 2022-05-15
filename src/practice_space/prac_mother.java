@@ -7,7 +7,7 @@ public class prac_mother {
 
     int A1 = 50;
 
-    public prac_mother() {
+    public prac_mother() { // 디폴트 생성자
 
     }
 
