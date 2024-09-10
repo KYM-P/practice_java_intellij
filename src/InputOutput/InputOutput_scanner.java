@@ -10,6 +10,9 @@ public class InputOutput_scanner {
         System.out.print("입력: ");
         str = sc.nextLine(); // 버퍼에 줄바꿈 문자 전까지 입력받음
         System.out.println(str);
+        System.out.print("입력: ");
+        int a = sc.nextInt(); // parse 기능
+        System.out.println(a);
         sc.close(); // bufferedRead 같은 경우도 사용이 불가능하게 된다
         /*
 		 * scanner 메소드

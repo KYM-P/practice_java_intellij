@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="x-windows-949">
+    <file url="file://$PROJECT_DIR$/src/Deque/priority_queue.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/src/HashMap/HashMap_basic.java" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/src/InheritanceTest/Inheritance_test1.java" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/src/InheritanceTest/Inheritance_test2.java" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/src/InputOutput/InputOutput_basic.java" charset="x-windows-949" />

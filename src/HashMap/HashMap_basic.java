@@ -14,8 +14,12 @@ public class HashMap_basic {
         System.out.println("key값이 melon인 value: " + hm.get("melon"));
         System.out.println("HashMap의 크기: " + hm.size());
         hm.remove("apple");
+        System.out.println( hm.keySet() );
+        // 응용
+        for (String i : hm.keySet()) { // Set<Key E> 형태로 반환 / 단 hm의 자료 삭제시 Set 에도 반영됨
+            System.out.println( i );
+        }
         hm.clear();
-
         /* HashMap
          * HashMap<K,V> hm = new HashMap<K,V>();
          * .put(key, value) key 값과 해당 key 의 value 값을 가지는 요소 추가

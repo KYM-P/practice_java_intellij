@@ -12,8 +12,8 @@ public class priority_queue { // 요소는 Array 사용 [2진 트리 형 Heap 구조]
         pq_up.offer(5);
         System.out.println(pq_up);
         pq_down.offer(1);
-        pq_down.offer(3);
         pq_down.offer(5);
+        pq_down.offer(3);
         System.out.println(pq_down); // 이진 트리 구조 유의
         System.out.println(pq_down.poll());
         System.out.println(pq_down);

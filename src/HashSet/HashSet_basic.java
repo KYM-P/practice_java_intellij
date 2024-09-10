@@ -15,7 +15,6 @@ public class HashSet_basic {
         System.out.println("i 에서 요소 10을 제거 후에도 10이 존재 하는가? : " + i.contains(10));
         i.clear();
         System.out.println(i);
-
     }
     /* HashSet (*순서를 가지지 않는다 => index 없음)
      * HashSet<E> hs = new HashSet<E>();
@@ -29,5 +28,7 @@ public class HashSet_basic {
      * .size() HashSet 의 크기 반환 (현재 요소의 수)
      * .remove(value) 해당 value 값과 같은 요소를 제거 (제거 성공? true : false)
      * .clear() 모든 요소 제거
+     * .toArray() Object[] 로 변환
+     * .toArray(new Integer[0]) Integer 배열로 변환
      */
 }

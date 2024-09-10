@@ -8,6 +8,7 @@ public class Stack_test1 {
 
         stack.push(5);
         stack.push(4);
+        System.out.println(stack.size());
         System.out.println(stack.peek());
         System.out.println(stack.peek());
         System.out.println(stack.pop());
