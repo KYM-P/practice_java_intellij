@@ -1,6 +1,7 @@
 package Deque;
 
 import java.util.Collections;
+import java.util.Objects;
 import java.util.PriorityQueue;
 
 public class priority_queue { // 요소는 Array 사용 [2진 트리 형 Heap 구조]
@@ -37,5 +38,7 @@ public class priority_queue { // 요소는 Array 사용 [2진 트리 형 Heap 구조]
 
 
     }
-
+    // A<T extends Objects & Comparable<? super T>> / A<e> 에서 e 는 compareTo가 구현된 e 만 받음
+    static class A<T extends Objects & Comparable<? super T>>{
+    }
 }

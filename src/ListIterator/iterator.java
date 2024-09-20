@@ -38,4 +38,19 @@ public class iterator {
          * .remove() 이미 반환한 다음값(.next())을 원본 리스트 목록에서 제거 (무조건 .next() 이후 사용) * 원본 배열이 저장되어있지 않다면 오류 발생
          */
     }
+    // Queue 의 내용중 하나
+    int top = 0;
+    int[] items = new int[10];
+    private class QueueIterator implements Iterator<Integer>{
+        int curr = 0;
+
+        @Override
+        public boolean hasNext() {
+            return curr <= top-1;
+        }
+
+        @Override
+        public Integer next() { return items[curr++];}
+
+    }
 }
